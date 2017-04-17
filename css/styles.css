@@ -57,3 +57,23 @@ h1 {
 	height: 25px;
 }
 
+#check-btn, .num-btn {
+	transition: 200ms ease-in-out background-color;
+	cursor: pointer;
+}
+
+#check-btn:active, .num-btn:active {
+	background-color: #F07818;
+}
+
+#author {
+	font-color: white;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 15px ;
+}
+
+a {color:#FCEBB6;}      /* unvisited link */
+a:visited {color:#FCEBB6;}  /* visited link */
+a:hover {color:#FCEBB6;}  /* mouse over link */
+a:active {color:#FCEBB6;}  /* selected link */
