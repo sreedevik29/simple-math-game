@@ -33,6 +33,8 @@ h1 {
 
 #result {
 	color: #5E412F;
+	margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 #check-btn, #question {
