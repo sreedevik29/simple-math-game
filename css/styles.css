@@ -1,28 +1,37 @@
-.num-btn, #question, #answer-area, #check-btn {
+body {
+	background-color: #f5f0f0;
+}
+
+h1 {
+	color: #5E412F;
+}
+
+.num-btn, #question, #answer-area, #check-btn, .row {
 	text-align: center;
 }
 
 .row {
 	color: white;
-	background-color: #D42C2C;
 }
 
-#main-row {
-	border-radius: 25px;
-	background-color: #D42C2C;
+#main {
+	border-radius: 15px;
+	background-color: #FCEBB6;
+	margin-top: 135px;
 }
 
 .num-btn {
-	background-color: #E7B513;
+	background-color: #F0A830;
 	padding: 3px;
 	border: white;
 	margin: 4px;
 	border-radius: 3px;
 	box-shadow: 10px;
+	height: 25px;
 }
 
 #result {
-	color: white;
+	color: #5E412F;
 }
 
 #check-btn, #question {
@@ -32,9 +41,16 @@
 	margin: 4px;
 	border-radius: 3px;
 	box-shadow: 4px;
+	height: 25px;
 }
 
 #answer-area {
-	background-color: #29D585;
+	background-color: #78C0A8;
+	padding: 3px;
+	border: white;
+	margin: 4px;
+	border-radius: 3px;
+	box-shadow: 4px;
+	height: 25px;
 }
 
