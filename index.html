@@ -3,6 +3,8 @@
 <head>
 	<title>Random Addition Game</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script
 	  src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -12,16 +14,84 @@
 </head>
 <body>
 
-<h1>Add the numbers!</h1>
+<!-- <div class="container-fluid"> -->
+	<div id="main-row">
+		<div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+			<h1>Add the numbers!</h1>
 
-<div id="value-a" class="values"> </div>
-<div id="value-b" class="values"> </div>
+			<!-- ROW 1 -->
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div id="question"></div>
+				</div>
+			</div>
 
-<input type="number" id="answer">
+			<!-- ROW 2  -->
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-4">
+					<div id="num-7" class="num-btn">7</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-4">
+					<div id="num-8" class="num-btn">8</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-4">
+					<div id="num-9" class="num-btn">9</div>
+				</div>
+			</div>
 
-<button id="check-btn">Check!</button>
+			<!-- ROW 3 -->
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-4">
+					<div id="num-4" class="num-btn">4</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-4">
+					<div id="num-5" class="num-btn">5</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-4">
+					<div id="num-6" class="num-btn">6</div>
+				</div>
+			</div>
 
-<h2>Result: <span id="result"></span></h2>
+			<!-- ROW 4 -->
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-4">
+					<div id="num-1" class="num-btn">1</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-4">
+					<div id="num-2" class="num-btn">2</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-4">
+					<div id="num-3" class="num-btn">3</div>
+				</div>
+			</div>
+
+			<!-- ROW 5 -->
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">
+					<div id="num-0" class="num-btn">0</div>
+				</div>
+			</div>
+
+			<!-- ROW 6 -->
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div id="answer-area"></div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div id="check-btn">Check!</div>
+				</div>
+			</div>
+
+			<!-- ROW 7 -->
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<h2><span id="result"></span></h2>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+<!-- </div> -->
 
 <script type="text/javascript" src="js/scripts.js">
 

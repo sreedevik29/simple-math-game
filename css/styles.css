@@ -1,0 +1,40 @@
+.num-btn, #question, #answer-area, #check-btn {
+	text-align: center;
+}
+
+.row {
+	color: white;
+	background-color: #D42C2C;
+}
+
+#main-row {
+	border-radius: 25px;
+	background-color: #D42C2C;
+}
+
+.num-btn {
+	background-color: #E7B513;
+	padding: 3px;
+	border: white;
+	margin: 4px;
+	border-radius: 3px;
+	box-shadow: 10px;
+}
+
+#result {
+	color: white;
+}
+
+#check-btn, #question {
+	background-color: #0D83C0;
+	padding: 3px;
+	border: white;
+	margin: 4px;
+	border-radius: 3px;
+	box-shadow: 4px;
+}
+
+#answer-area {
+	background-color: #29D585;
+}
+
